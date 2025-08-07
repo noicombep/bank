@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mở thẻ tín dụng VIB - Mai hỗ trợ</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f2f6ff;
+    }
+    header {
+      background-color: #0d6efd;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .hero {
+      background-color: #e9f2ff;
+      padding: 30px;
+    }
+    .contact a {
+      font-weight: bold;
+      color: #0d6efd;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>MỞ THẺ TÍN DỤNG VIB HOÀN TOÀN MIỄN PHÍ</h1>
+  <p>Khu vực TP.HCM – Hỗ trợ bởi <strong>Mai</strong></p>
+</header>
+
+<section class="hero text-center">
+  <div class="container">
+    <h2 class="mb-3">🎁 Ưu đãi đặc biệt</h2>
+    <ul class="list-group list-group-flush mb-3 text-start mx-auto" style="max-width: 600px;">
+      <li class="list-group-item">✅ Mở thẻ trực tiếp <strong>không qua trung gian</strong></li>
+      <li class="list-group-item">✅ Mở thẻ theo <strong>lương, CASA, sổ tiết kiệm</strong></li>
+      <li class="list-group-item">✅ Nhận sang ngang <strong>full hạn mức</strong></li>
+      <li class="list-group-item">✅ Ưu đãi hoàn tiền, tích điểm siêu hấp dẫn</li>
+    </ul>
+    <p class="contact">📞 Liên hệ: <a href="tel:0852005828">0852.005.828</a> (Zalo/SMS/Call) – Em Mai hỗ trợ hết mình!</p>
+  </div>
+</section>
+
+<section class="container my-5">
+  <h3 class="text-center mb-4">✨ Một số dòng thẻ VIB nổi bật</h3>
+  <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active text-center">
+        <img src="./9b413dc7-b679-4984-b60b-ca52cdc5c0fe.jpg" class="d-block mx-auto rounded" alt="Thẻ Cashback">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>VIB CashBack</h5>
+          <p>Hoàn tiền đến 6% cho mọi giao dịch</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Nút điều hướng -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+</section>
+
+<section class="container my-5">
+  <h3 class="text-center mb-4">📌 Đăng ký mở thẻ</h3>
+  <form id="registerForm" class="row g-3">
+    <div class="col-md-6">
+      <input type="text" id="name" class="form-control" placeholder="Họ và tên" required>
+    </div>
+    <div class="col-md-6">
+      <input type="tel" id="phone" class="form-control" placeholder="Số điện thoại" required>
+    </div>
+    <div class="col-md-12">
+      <input type="text" id="job" class="form-control" placeholder="Nghề nghiệp (Ví dụ: Nhân viên văn phòng)">
+    </div>
+    <div class="col-12 d-grid">
+      <button type="submit" class="btn btn-primary">Gửi đăng ký</button>
+    </div>
+  </form>
+  <div id="successMessage" class="alert alert-success mt-3 d-none text-center">
+    ✅ Cảm ơn bạn! Mai sẽ liên hệ sớm nhất có thể.
+  </div>
+</section>
+
+
+
+<footer class="bg-light text-center py-3">
+  © 2025 – Mai hỗ trợ mở thẻ VIB 
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
